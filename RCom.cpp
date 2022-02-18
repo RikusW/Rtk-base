@@ -17,6 +17,7 @@
 #include <string.h> // strncpy
 #include <termios.h>
 #include <stdlib.h> // atol
+#include <errno.h>
 
 
 int RCom::Open(const char *p)
@@ -24,7 +25,7 @@ int RCom::Open(const char *p)
 	hCom = open(p,O_RDWR | O_NOCTTY | O_SYNC);
 	if(hCom == -1) {
 		hCom = 0;
-		printf("open %s fail\n",p);
+		printf("open %s fail - %s\n", p, strerror(errno));
 		return 1;
 	}
 	return 0;
