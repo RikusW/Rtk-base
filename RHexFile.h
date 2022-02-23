@@ -3,7 +3,7 @@
 #ifndef RHEXFILE_H
 #define RHEXFILE_H
 
-#include "rtypes.h"
+#include "RTypes.h"
 
 class RHexFile
 {

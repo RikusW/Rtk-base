@@ -3,7 +3,7 @@
 #ifndef RSTRING_H
 #define RSTRING_H
 
-#include "rtypes.h"
+#include "RTypes.h"
 
 class RString
 {

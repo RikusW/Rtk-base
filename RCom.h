@@ -1,6 +1,6 @@
 // vim:ts=4 sts=0 sw=4
 
-#include "rtypes.h" 
+#include "RTypes.h" 
 
 #define COM1 1
 #define COM2 2

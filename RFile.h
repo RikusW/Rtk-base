@@ -3,7 +3,7 @@
 #ifndef __RFILE_H__
 #define __RFILE_H__
 
-#include "rtypes.h"
+#include "RTypes.h"
 
 //---------------------------
 // RData declaration
